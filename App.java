@@ -6,6 +6,10 @@ public class App {
 
         Gerente stefany = new Gerente();
         stefany.setSalario(20000);
+        stefany.setSenha(2222);
+
+        SistemaInterno sistemaInterno = new SistemaInterno();
+        sistemaInterno.autentica(stefany);
 
         EditorVideo otavio = new EditorVideo();
         otavio.setSalario(1000);
